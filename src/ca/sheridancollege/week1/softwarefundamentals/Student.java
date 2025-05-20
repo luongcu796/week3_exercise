@@ -15,6 +15,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student 
 {
     private String name;
+    private String gundam;
 
     /**
      * @return the name
@@ -22,12 +23,22 @@ public class Student
     public String getName() {
         return name;
     }
+    
 
     /**
      * @param givenName the name to set
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+    
+    
+    public String getGundam() {
+        return gundam;
+    }
+
+    public void setGundam(String gundam) {
+        this.gundam = gundam;
     }
     
     
