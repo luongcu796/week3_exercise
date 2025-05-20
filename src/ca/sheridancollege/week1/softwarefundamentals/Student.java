@@ -16,6 +16,7 @@ public class Student
 {
     private String name;
     private String gundam;
+    private int num;
 
     /**
      * @return the name
